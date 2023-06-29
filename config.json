@@ -2,7 +2,7 @@
   "debug": true,
   "wallets_file": "wallets.csv",
   "log_file": "default.log",
-  "working_network": "arbitrum one",
+  "working_network": "optimism",
   "networks": {
     "ethereum": {
       "rpc": "https://eth.llamarpc.com",
@@ -12,6 +12,11 @@
     "arbitrum one": {
       "rpc": "https://arb-mainnet-public.unifra.io",
       "explorer": "https://arbiscan.io/",
+      "max_gwei": 100
+    },
+    "optimism": {
+      "rpc": "https://mainnet.optimism.io",
+      "explorer": "https://optimistic.etherscan.io/",
       "max_gwei": 100
     },
     "aptos": {

@@ -35,6 +35,7 @@ class AptosBridge(Contract):
     def __init__(self, node):
         chain_id_to_address = {
             1: '0x50002cdfe7ccb0c41f519c6eb0653158d11cd907',
+            10: '0x86Bb63148d17d445Ed5398ef26Aa05Bf76dD5b59',
             42161: '0x1BAcC2205312534375c8d1801C27D28370656cFf'
         }
         address = chain_id_to_address.get(node.chain_id)
